@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CakeRoom | Menu</title>
+        <style>
+            nav {
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 50px;
+            }
+            .menu {
+                display: flex;
+                vertical-align: middle;
+                height: 50;
+                background-color: rgb(255, 255, 255);
+                padding: 10px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+                font-size: 20px;
+                color: rgb(87, 14, 184);
+                word-spacing: 40px;
+                text-decoration: none !important;
+            }
+            a {
+                color: inherit;
+            }
+            .order {
+                display: block;
+                text-align: center;
+                padding: 50px;
+            }
+            main { 
+                background-color: rgb(248, 249, 250);
+                padding: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bolder;
+                font-size: 20px;
+                color: black;
+            }
+            table, tr, td {
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: normal;
+                color: black;
+                text-align: left;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 10px;
+                border: 1px solid black;
+                border-collapse: collapse;
+                width: 100%;
+                
+            }
+            th {
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                color: black;
+                text-align: left;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 10px;
+                border: 1px solid black;
+                border-collapse: collapse;
+                width: 100%;
+            }
+
+        </style>
+
+    </head>
+
+    <body>
+        <div id="menu_bar" class="menu">
+            <header style="float:left">
+               <a href="index.html"> 
+                   <img src="images/logo.png" alt="logo" width="150">
+                </a>
+            </header>
+            <nav style="float:right"> 
+                <a href="index.html" style="text-decoration:none;">Menú</a>
+                <a href="order.html" style="text-decoration:none;">Ordenar</a>
+                <a href="pastelero.html" style="text-decoration:none;">Pastelero</a>
+                
+            </nav>
+        </div>
+
+        <main>
+            <div>
+                <h1>Pedidos pendientes</h1>
+            </div>
+            <hr>
+            <div>
+                <table>
+                    <tr>
+                        <th>Nombre</th> 
+                        <th>Telefono</th> 
+                        <th>Relleno</th> 
+                        <th>Cubierta</th>
+                    </tr>
+                    <tr>
+                        <td>Mariana Jimenez</td> 
+                        <td>2299785231</td> 
+                        <td>Fresa</td> 
+                        <td>Merengue</td>
+                    </tr>
+                    <tr>
+                        <td>Pablo Ramirez</td> 
+                        <td>2299524123</td> 
+                        <td>Vainilla</td> 
+                        <td>Fudge</td>
+                    </tr>
+                    <tr>
+                        <td>Alana Valentine</td> 
+                        <td>2298523620</td> 
+                        <td>Chocolate</td> 
+                        <td>Fondant</td>
+                    </tr>
+                    <tr>
+                        <td>Rodrigo Gonzalez</td> 
+                        <td>2293656268</td> 
+                        <td>Vainilla</td> 
+                        <td>Merengue</td>
+                    </tr>
+                    
+                </table>
+               
+            </div>
+        </main>
+    </body>
+</html>
