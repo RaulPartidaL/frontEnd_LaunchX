@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="12px" height="10px" viewBox="0 0 12 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M7.68732298,2.65150753 L11.0439766,7.92624902 C11.6369929,8.85813176 11.3622874,10.0943067 10.4304047,10.687323 C10.1095028,10.8915333 9.73702172,11 9.35665367,11 L2.64334633,11 C1.53877683,11 0.643346329,10.1045695 0.643346329,9 C0.643346329,8.61963196 0.751813073,8.24715089 0.956023354,7.92624902 L4.31267702,2.65150753 C4.90569332,1.71962479 6.14186824,1.44491925 7.07375098,2.03793554 C7.32071259,2.19509293 7.53016559,2.40454593 7.68732298,2.65150753 Z" id="Triangle" fill="#3151CF" transform="translate(6.000000, 5.500000) scale(1, -1) translate(-6.000000, -5.500000) "></path>
+    </g>
+</svg>
